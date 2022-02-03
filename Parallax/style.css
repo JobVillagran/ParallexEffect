@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width: 100%;
+    height: 50vh;
+}
+h2 {
+    font-size: 60px;
+    background: rgba(0, 0, 0, 0.419);
+    padding: 8px 24px;
+    border-radius: 16px;
+    color: white;
+}
+div:nth-child(1) {
+    background-color: #fff;
+}
+div:nth-child(2) {
+    background-image: url("https://4.bp.blogspot.com/-xwZu4JVaZuE/XZce74tPUvI/AAAAAAAAIw4/2e-DAoZKXNIpzO2pNilz68SzaAab2q5qACLcBGAsYHQ/s1600/google-ai.jpg");
+    background-size: cover;
+    background-attachment: fixed; /*makes the parallax effect.*/
+}
+div:nth-child(3) {
+    background-color: white;
+}
+div:nth-child(4) {
+    background-image: url("https://149695847.v2.pressablecdn.com/wp-content/uploads/2021/10/AM2-banner.jpg");
+    background-size: cover;
+    background-attachment: fixed;/*makes the parallax effect*/
+}
